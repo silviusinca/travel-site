@@ -1,6 +1,3 @@
-@import "../base/_variables";
-@import "../base/_mixins";
-
 .large-hero{
 	border-bottom: 10px solid $mainBlue;
 	position: relative;
