@@ -8,6 +8,7 @@
 
 	&__text-content {
 		/* how to center some text on an image */
+		padding-top: 88px;
 		position:absolute;
 		top:50%;
 		transform: translateY(-50%);
@@ -15,6 +16,10 @@
 		width: 100%;
 		text-align:center;
 		/* how to center some text on an image */
+
+		@mixin atMedium {
+			padding-top: 60px;
+		}
 	}
 
 	&__title {
