@@ -1,16 +1,3 @@
-import Person from './modules/Person';
+import MobileMenu from './modules/MobileMenu';
 
-alert("YEET");
-
-class Adult extends Person {
-    payTaxes(){
-        console.log(this.name + " now owes $0 in taxes.");
-    }
-}
-
-var john = new Person("John Doe", "blue");
-john.greet();
-
-var jane = new Adult("Jane Smith", "orange");
-jane.greet();
-jane.payTaxes();
+var mobileMenu = new MobileMenu;
