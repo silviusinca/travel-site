@@ -1,6 +1,6 @@
 import Person from './modules/Person';
 
-alert("YEEET");
+alert("YEET");
 
 class Adult extends Person {
     payTaxes(){
